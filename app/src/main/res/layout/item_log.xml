@@ -1,0 +1,74 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tanggal -->
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal: 2024-12-11"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Air Diminum -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:contentDescription="Icon Water" />
+
+            <TextView
+                android:id="@+id/tvWaterIntake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air diminum: 0 ml"
+                android:textSize="16sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <!-- Langkah -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_directions"
+                android:contentDescription="Icon Steps" />
+
+            <TextView
+                android:id="@+id/tvStepCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Langkah: 0"
+                android:textSize="16sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

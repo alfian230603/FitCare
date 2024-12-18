@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "266945576597",
+    "project_id": "fitcare-bb4f5",
+    "storage_bucket": "fitcare-bb4f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266945576597:android:e7595ebce5146a414f259c",
+        "android_client_info": {
+          "package_name": "com.app.fitcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu5FOQzxLc5fEaBsztobyQ0gOdPXf08N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

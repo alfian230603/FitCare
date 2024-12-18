@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buat Akun Baru"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Telepon"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="phone"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:padding="14dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun? Masuk"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
